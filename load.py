@@ -17,7 +17,7 @@ def get_filters():
             city=cities[names]
         except:
             print("Invalid Entry, Please try again")
-            continue
+            continue  """will keep soliciting for a valid response from the user"""
 
         print("Looks like you selected {}".format(city))
 
@@ -36,7 +36,7 @@ def get_filters():
     list_month=["All","January","February","March","April","May","June"]
     while True:
         try:    #using try block to tackle excptions and errors
-            mons=int(input('Please choose the month or all from the options\n0 -All, 1 -January, 2 -February,3 -March, 4 -April, 5 -May and 6 -June\n'))
+            mons=int(input('Please choose the month or all from the options\n0 -All, 1 -January, 2 -February,3 -March,... and 6 -June\n'))
             month=list_month[mons]
         except:
             print("Invalid Entry, Please try again")
@@ -60,7 +60,7 @@ def get_filters():
     while True:
         try:    #using try block to tackle excptions and errors
             week=int(input('Choose your day to view info\n 0 for all, 1 for Sunday, 2 for Monday, ... and 7 for Saturday\n'))
-            day=list_week[week]
+            day=list_week[week]     """soliciting month info from user """
         except:
             print("Invalid Entry, Please try again")
             continue
@@ -187,6 +187,7 @@ def data_view(df): #Used to show a part of data  to the user
             continue
         else:
             break
+    print('-'*40)
     print('-'*40)
 
 #Defining main funcion below to call all other functions
