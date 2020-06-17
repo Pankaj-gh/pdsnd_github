@@ -135,11 +135,11 @@ def trip_duration_stats(df):
 
     max=df['mins'].max()
     avg=df['mins'].mean()
-    avg1=round(avg,2)
+    mean1=round(avg,2)
 
 
     print('-'*40)
-    print("Maximum time taken is {} minutes, and average is {} minutes.".format(max,avg1))
+    print("Maximum time taken is {} minutes, and average is {} minutes.".format(max,mean1))
     print('-'*40)
 
 #Calculating user Stats in below function
