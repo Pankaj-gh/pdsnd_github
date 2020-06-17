@@ -138,7 +138,7 @@ def trip_duration_stats(df):
     avg1=round(avg,2)
 
 
-
+    print('-'*40)
     print("Maximum time taken is {} minutes, and average is {} minutes.".format(max,avg1))
     print('-'*40)
 
