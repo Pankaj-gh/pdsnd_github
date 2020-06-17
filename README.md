@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+6/12/2020
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+The project explores one of the 3 cites-Washington, NYC and Chicago, based on input from the user, and displays descriptive statistics and other details using month and day of the week filters whose input is also solocited from the user.
 
 ### Files used
-Include the files used
+chicago.csv, New_York_City.csv, Washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+I have based my code structure on the Bikeshare.py file provided by Udacity along with all the csv files for cities
